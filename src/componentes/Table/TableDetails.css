@@ -1,0 +1,33 @@
+/* Garantindo que toda a tabela seja transparente */
+.ant-table,
+.ant-table-container,
+.ant-table-content,
+table {
+  background: transparent !important;
+}
+
+/* Cabeçalho transparente com efeito de desfoque */
+thead.ant-table-thead {
+  background: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* Células do cabeçalho */
+thead.ant-table-thead .ant-table-cell {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: black !important;
+  font-weight: bold;
+}
+
+/* Células do corpo da tabela */
+.ant-table-tbody .ant-table-cell {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: black!important;
+}
+
+/* Remove bordas e sombras da tabela */
+.ant-table,
+.ant-table-container {
+  border: none !important;
+  box-shadow: none !important;
+}
