@@ -24,6 +24,23 @@ Este é um projeto que exibe uma tabela interativa de Pokémon, permitindo aos u
 - **React Hooks**: Para gerenciar estados e efeitos colaterais.
 - **LocalStorage**: Para armazenar os favoritos localmente.
 
+## Interface do Projeto  
+
+Veja abaixo algumas capturas de tela do projeto em funcionamento:  
+
+### Página Principal  
+![Página Principal](./public/pagina-principal.png)  
+
+### Pesquisa de Pokémon  
+![Pesquisa de Pokémon](./public/pesquisa.png)  
+
+
+
+# Acesse o Projeto Online
+O projeto pode ser acessado através do link:
+
+https://pokemontablelist.netlify.app/
+
 ## Passos para Rodar Localmente
 
 Siga os passos abaixo para rodar este projeto localmente em sua máquina:
