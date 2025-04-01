@@ -33,7 +33,7 @@ Siga os passos abaixo para rodar este projeto localmente em sua máquina:
 ```bash
 git clone https://github.com/afschagas/pokemon-table.git
 cd pokemon-table
-
+npm install
 npm start
 
-### O projeto será iniciado em http://localhost:3000
+O projeto será iniciado em http://localhost:3000
