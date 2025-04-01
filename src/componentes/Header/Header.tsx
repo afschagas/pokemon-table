@@ -38,12 +38,12 @@ const Header = () => {
   return (
     <AntHeader className="fixed top-0 w-full z-10 shadow-md px-6 flex items-center justify-between bg-white dark:bg-gray-950  text-[#1f3760] dark:text-white">
       <h1 className="text-3xl font-bold">Pokémon</h1>
-      <button 
+      {/* <button 
         onClick={toggleDarkMode} 
         className="p-2   rounded-full hover:scale-110 transition"
       >
         {darkMode ? <BulbFilled className="text-yellow-400 text-xl" /> : <BulbOutlined className="text-gray-600 text-xl" />}
-      </button>
+      </button> */}
     </AntHeader>
   );
 };
